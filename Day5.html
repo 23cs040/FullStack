@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            transform: uppercase;
+            letter-spacing: 10px;
+            color: rgb(23, 23, 32);
+        }
+
+        .p1 {
+            color: blueviolet;
+            text-decoration: underline;
+            background: lightcoral;
+        }
+
+        .p2 {
+            color: darkslateblue;
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-color: rgb(11, 172, 40);
+            text-decoration-thickness: 5px;
+            background: lightgoldenrodyellow
+        }
+
+        .p3 {
+            background: lightseagreen;
+            text-transform: uppercase;
+        }
+
+        .p4 {
+            text-transform: LOWERCASE;
+            background: lightpink;
+        }
+
+        .p5 {
+            text-transform: capitalize;
+            background: lightsteelblue;
+        }
+
+        .p6 {
+            text-transform: initial;
+            background: gray;
+        }
+
+        .p7 {
+            background-color: chartreuse;
+            background: violet;
+        }
+
+        #div {
+            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/017/188/879/small/geometric-dark-background-with-gradient-shapes-composition-good-for-posters-design-illustration-vector.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50%;
+            height: 60%;
+            width: 60%;
+        }
+        form {
+            font-size: 20px;
+            background-color: lightyellow;
+            text-align: left;
+            margin: 50px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border: 20px solid rgb(5, 6, 17);
+            width: 700px;
+        }
+        body {
+            background-color: rgb(163, 193, 211);
+        }
+        .div1 {
+            border: 3px solid rgb(118, 84, 84);
+            padding: 15px;
+            margin: 10px;
+            background: white;
+        }
+        .div2 {
+            border: 3px dashed rgb(46, 46, 88);
+            padding: 15px;
+            margin: 10px;
+            background: white;
+        }
+        .div3 {
+            border: 3px dotted rgb(21, 141, 113);
+            padding: 15px;
+            margin: 10px;
+            background: white;
+        }
+        .div4{
+            border: 3px double rgb(141, 55, 141);
+            padding: 15px;
+            margin: 10px;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>heading Tag</h1>
+    <p class="p1">paragraph Tag</p>
+    <p class="p2">decorations</p>
+    <p class="p3">uppercase</p>
+    <p class="p4">lowercase</p>
+    <p class="p5">capitalize</p>
+    <p class="p6">initial</p>
+    <p class="p7">Cascading Style Sheets (CSS) is a style sheet language used with HTML to control the presentation,
+        formatting, and layout of web pages. </p>
+    <div id="div">
+        <h1>CSS</h1>
+    </div>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" placeholder="enter your Username" id="name">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" placeholder="enter your email" id="email">
+        <br>
+        <label for="password">Password</label>
+        <input type="text" placeholder="enter your password" id="password">
+        <br>
+        <label for="phone number">Phone Number</label>
+        <input type="tel" placeholder="enter your phone number" id="phone number">
+        <br>
+        <label for="course">Course</label>
+        <select id="course">
+            <option value="cse">CSE</option>
+            <option value="ece">ECE</option>
+            <option value="mech">MECH</option>
+            <option value="civil">CIVIL</option>
+        </select>
+        <br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="gender" value="male">Male
+        <input type="radio" name="gender" id="gender" value="female">Female
+        <input type="radio" name="gender" id="gender" value="other">Other
+        <br>
+        <label for="skils">Skills</label>
+        <input type="checkbox" name="skills" id="skills" value="programming">Programming
+        <input type="checkbox" name="skills" id="skills" value="communication">Communication
+        <input type="checkbox" name="skills" id="skills" value="teamwork">Teamwork
+        <input type="checkbox" name="skills" id="skills" value="problem-solving">Problem Solving
+        <br>
+        <button>submit</button>
+        <button>reset</button>
+    </form>
+    <div class="div1">Solid Border</div>
+    <div class="div2">Dashed Border</div>
+    <div class="div3">Dotted Border</div>
+    <div class="div4">Double Border</div>
+</body>
+
+</html>

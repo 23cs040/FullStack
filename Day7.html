@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 p{
+            background-color: antiquewhite;
+        }
+        .div2 > p{
+            background-color: blueviolet;
+        }
+        p + h2{
+            background-color: chartreuse;
+        }
+        .div3 ~ p{
+            background-color: blue;
+        }
+        .img1{
+            width: 200px;
+            height: 200px;
+            opacity: 0.5;
+        }
+        .img2:hover{
+            opacity:0;
+        }
+        .img3:hover{
+            opacity:0.5;
+        }
+        a{
+            font-size:100px;
+        }
+        a:visted{
+            color:red;
+        }
+        a:hover{
+            color:green;
+        }
+        a:active{
+            color:black;
+        }
+        a:link{
+            color:yellow;
+        }
+        input:focus{
+            border: solid 50px;
+            color:palevioletred;
+        }
+        ul li:first-child {
+        color: rgb(0, 255, 64);
+    }
+        #btn1{
+            background-color: orangered;
+        }
+        .btn2{
+            background-color: blue;
+        }
+        .btn3{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <p>one</p>
+        <p>two</p>
+        <p>three</p>
+    </div>
+    <br>
+    <div class="div2">
+        <p>one</p>
+        <p>two</p>
+        <div>
+            <p>three</p>
+        </div>
+        <p>four</p>
+    </div>
+    <br>
+    <p>one</p>
+    <h2>two</h2>
+    <h2>three</h2>
+    <br>
+    <div class="div3">
+        <p>start</p>
+    </div>
+    <p>one</p>
+    <p>two</p>
+    <p>three</p>
+    <br>
+    <img class="img1" src="https://wonderfulengineering.com/wp-content/uploads/2014/10/image-wallpaper-15.jpg">
+    <br>
+    <img class="img2" src="https://th.bing.com/th/id/OIP.p1xQldpZS-4mRyWwZGwGvwHaE5?w=287&h=190&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3">
+    <img class="img3" src="https://th.bing.com/th/id/OIP.p1xQldpZS-4mRyWwZGwGvwHaE5?w=287&h=190&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3">
+    <br>
+    <a href="https://www.w3schools.com/css/default.asp">go next</a>
+    <br>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="enter your name">
+    <br>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+    </ul>
+    <br>
+    <button id="btn1">BUTTON1</button>
+    <button class="btn2">BUTTON2</button>
+    <button class="btn3">BUTTON3</button>
+</body>
+</html>
